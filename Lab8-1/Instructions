@@ -1,0 +1,22 @@
+Lab 8-1: Swapping Values
+Learning Objectives: 8.1, 8.2
+
+In this lab, you will complete a C++ program that swaps values stored in three int variables and determines
+maximum and minimum values. The C++ file provided for this lab contains the necessary variable
+declarations, as well as the input and output statements. You want to end up with the smallest value stored in
+the variable named first and the largest value stored in the variable named third. You need to write the
+statements that compare the values and swap them if appropriate. Comments included in the code tell you
+where to write your statements.
+
+1. Open the source code file named Swap.cpp using the text editor of your choice.
+2. Write the statements that test the first two integers, and swap them if necessary.
+3. Write the statements that test the second and third integer, and swap them if necessary.
+4. Write the statements that test the first and second integers again, and swap them if necessary.
+5. Save this source code file in a directory of your choice, and then make that directory your working
+directory.
+6. Compile the source code file Swap.cpp.
+7. Execute the program using the following sets of input values, and record the output:
+
+101 22 –23
+630 1500 9
+21 2 2
