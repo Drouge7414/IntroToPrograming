@@ -1,17 +1,16 @@
-Your Tasks
+Lab 2-1: Declaring and Initializing C++ Variables
+Learning Objective: 2.2
 
-In this lab, you declare and initialize variables in a C++ program. The program, which is in a file named NewAge.cpp, calculates your age in the year 2050.
-Instructions
+In this lab, you declare and initialize variables in a C++ program provided with the data files for this book.
+The program, which is saved in a file named NewAge.cpp, calculates your age in the year 2050.
 
-Task 1: Declare an integer variable named newAge.
-
-Task 2: Declare and initialize an integer variable named myCurrentAge. Initialize this variable with your current age.
-
-Task 3: Declare and initialize an integer variable named currentYear. Initialize this variable with the value of the current year. Use four digits for the year.
-
-Task 4: Execute the program.
-
-An example of the program is shown below:
-
-My Current Age is 29.
-I will be 65 in 2050.
+1. Open the source code file named NewAge.cpp using Notepad or the text editor of your choice.
+2. Declare an integer variable named myNewAge.
+3. Declare and initialize an integer variable named myCurrentAge. Initialize this variable with your
+current age.
+4. Declare and initialize an integer variable named currentYear. Initialize this variable with the value of
+the current year. Use four digits for the year.
+5. Save this source code file in a directory of your choice, and then make that directory your working
+directory.
+6. Compile the source code file NewAge.cpp.
+7. Execute the program. Record the output of this program.
