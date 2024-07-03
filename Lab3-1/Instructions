@@ -1,52 +1,53 @@
-Your Tasks
+Lab 3-1: Using Flowcharts and Pseudocode to Write a C++ Program
+Learning Objective: 3.1
 
-In this lab, you use the pseudocode found in the figure below to add code to a partially created C++ program. When completed, college admissions officers should be able to use the C++ program to determine whether to accept or reject a student, based on his or her test score and class rank.
+In this lab, you use the flowchart and pseudocode in Figure 3-3 to add code to a partially created C++
+program. When completed, college admissions officers should be able to use the C++ program to determine
+whether to accept or reject a student, based on his or her test score and class rank.
+
+Chapter 3 Writing Structured C++ Programs30
+
+Figure 3-3 Pseudocode for the College Admission program
 
 start
-   input testScore, classRank
-   if testScore >= 90 then
-      if classRank >= 25 then
-         output "Accept"
-      else
-         output "Reject"
-      endif
-   else
-      if testScore >= 80 then
-         if classRank >= 50 then
-            output "Accept"
-         else
-            output "Reject"
-         endif
-      else
-         if testScore >= 70 then
-            if classRank >= 75 then
-               output "Accept"
-            else
-               output "Reject"
-            endif
-         else
-            output "Reject"
-         endif
-      endif
-   endif
+input testScore, classRank
+if testScore >= 90 then
+if classRank >= 25 then
+output "Accept"
+else
+output "Reject"
+endif
+else
+if testScore >= 80 then
+if classRank >= 50 then
+output "Accept"
+else
+output "Reject"
+endif
+else
+if testScore >= 70 then
+if classRank >= 75 then
+output "Accept"
+else
+output "Reject"
+endif
+else
+output "Reject"
+endif
+endif
+endif
 stop
 
-Instructions
-
-Task 1: Declare two integer variables named testScore and classRank.
-
-Task 2: Write the interactive input statements to retrieve a student’s test score (testScore) and class rank (classRank) from the user of the program. Do not forget to prompt the user for the test score and class rank.
-
-The rest of the program is written for you.
-
-Execute the program by entering 87 for the test score and 60 for the class rank. Execute the program by entering 60 for the test score and 87 for the class rank.
-
-Examples of the program are shown below:
-
-Enter student's test score: 87
-Enter student's class rank: 60
-Accept
-
-Enter student's test score: 60
-Enter student's class rank: 87
-Reject
+1. Study the pseudocode in Figure 3-3.
+2. Open the source code file named CollegeAdmission.cpp using Notepad or the text editor of your
+choice.
+3. Declare two integer variables named testScore and classRank.
+4. Write the interactive input statements to retrieve a student’s test score and class rank from the user of
+the program. Do not forget to prompt the user for the test score and class rank.
+5. The rest of the program is written for you. Save this source code file in a directory of your choice, and
+then make that directory your working directory.
+6. Compile the source code file CollegeAdmission.cpp.
+7. Execute the program by entering 87 for the test score and 60 for the class rank. Record the output of
+this program.
+8. Execute the program by entering 60 for the test score and 87 for the class rank. Record the output of
+this program.
