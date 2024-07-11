@@ -1,0 +1,26 @@
+Lab 9-8: Using C++ Built-in Functions 
+
+Learning Objectives: 9.2, 9.8
+
+In this lab, you complete a partially written C++ program that includes built-in functions that convert charac
+ters stored in a character array to all uppercase or all lowercase. The program prompts the user to enter nine
+characters. For each character in the array, you call the built-in functions tolower() and toupper(). Both of
+these functions return a character with the character changed to uppercase or lowercase. Here is an example:
+-
+char sample1 = 'A';
+char sample2 = 'a';
+char result1, result2;
+result1 = tolower(sample1);
+result2 = toupper(sample2);
+
+The source code file provided for this lab includes the necessary variable declarations and the necessary input
+and output statements. Comments are included in the file to help you write the remainder of the program.
+
+1. Open the source code file named ChangeCase.cpp using Notepad or the text editor of your choice.
+2. Write the C++ statements as indicated by the comments.
+3. Save this source code file in a directory of your choice, and then make that directory your working
+directory.
+4. Compile the source code file ChangeCase.cpp.
+5. Execute the program with the following data:
+uppercase
+LOWERCASE
