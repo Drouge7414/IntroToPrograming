@@ -1,0 +1,14 @@
+In this lab, you complete a partially written C++ program that includes two functions that require a single
+parameter. The program continuously prompts the user for an integer until the user enters 0. The program
+then passes the value to a function that computes the sum of all the whole numbers from 1 up to and
+including the entered number. Next, the program passes the value to another function that computes the
+product of all the whole numbers up to and including the entered number. The source code file provided for
+this lab includes the necessary variable declarations and the input statement. Comments are included in the
+file to help you write the remainder of the program.
+
+1. Open the source code file named SumAndProduct.cpp using Notepad or the text editor of your choice.
+2. Write the C++ statements as indicated by the comments.
+3. Save this source code file in a directory of your choice, and then make that directory your working
+directory.
+4. Compile the source code file SumAndProduct.cpp.
+5. Execute the program.
