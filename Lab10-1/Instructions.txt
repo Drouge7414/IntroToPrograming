@@ -1,0 +1,27 @@
+Lab 10-1: Creating a Class in C++
+
+Learning Objective: 10.1
+
+In this lab, you create a programmer-defined class and then use it in a C++ program. The program should
+create two Rectangle objects and find their area and perimeter. Use the Circle class that you worked with
+in Exercise 10-1 as a guide.
+
+1. Open the class file named Rectangle.cpp using Notepad or the text editor of your choice.
+2. In the Rectangle class, create two private attributes named length and width. Both length and
+width should be data type double.
+3. Write public set methods to set the values for length and width.
+4. Write public get methods to retrieve the values for length and width.
+5. Write a public calculateArea() method and a public calculatePerimeter() method to
+calculate and return the area of the rectangle and the perimeter of the rectangle.
+6. Save this class file, Rectangle.cpp, in a directory of your choice, and then open the file named
+MyRectangleClassProgram.cpp.
+7. In the MyRectangleClassProgram, create two Rectangle objects named rectangle1 and
+rectangle2 using the default constructor as you saw in MyEmployeeClassProgram.cpp.
+8. Set the length of rectangle1 to 10.0 and the width to 5.0. Set the length of rectangle2 to 7.0
+and the width to 3.0.
+9. Print the value of rectangle1’s perimeter and area, and then print the value of rectangle2’s
+perimeter and area.
+10. Save MyRectangleClassProgram.cpp in the same directory as Rectangle.cpp.
+11. Compile the source code file MyRectangleClassProgram.cpp.
+12. Execute the program.
+13. Record the output below.
