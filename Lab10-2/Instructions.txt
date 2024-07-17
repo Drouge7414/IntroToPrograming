@@ -1,0 +1,36 @@
+Lab 10-2: Using Inheritance to Create a Derived Class in C++
+
+Learning Objectives: 10.1–10.2
+
+In this lab, you create a derived class from a base class, and then use the derived class in a C++ program.
+The program should create two Motorcycle objects, and then set the Motorcycle’s speed, accelerate
+the Motorcycle object, and check its sidecar status. Use the Vehicle and Automobile classes that you
+worked with earlier in this chapter as a guide.
+
+1. Open the file named Motorcycle.cpp using Notepad or the text editor of your choice.
+2. Create the Motorcycle class by deriving it from the Vehicle class. Use a public derivation.
+3. In the Motorcycle class, create a private attribute named sidecar. The sidecar attribute
+should be data type bool.
+4. Write a public set method to set the value for sidecar.
+5. Write a public get method to retrieve the value of sidecar.
+6. Write a public accelerate() method. This method overrides the accelerate() method
+inherited from the Vehicle class. Change the message in the accelerate() method so the
+following is displayed when the Motorcycle tries to accelerate beyond its maximum speed:
+"This motorcycle cannot go that fast".
+7. Save this class file, Motorcycle.cpp, in a directory of your choice, and then open the file named
+MyMotorcycleClassProgram.cpp.
+8. In the MyMotorcycleClassProgram, create two Motorcycle objects named motorcycleOne
+and motorcycleTwo.
+9. Set the sidecar value of motorcycleOne to true and the sidecar value of motorcycleTwo to
+false.
+10. Set motorcycleOne’s maximum speed to 90 and motorcycleTwo’s maximum speed to 85.
+11. Set motorcycleOne’s current speed to 65 and motorcycleTwo’s current speed to 60.
+12. Accelerate motorcycleOne by 30 mph, and accelerate motorcycleTwo by 20 mph.
+13. Print the current speed of motorcycleOne and motorcycleTwo.
+14. Determine if motorcycleOne and motorcycleTwo have sidecars. If yes, display the following:
+"This motorcycle has a side car". If not, display the following: "This motorcycle does
+not have a side car".
+15. Save MyMotorcycleClassProgram.cpp in the same directory as Motorcycle.cpp.
+16. Compile the source code file MyMotorcycleClassProgram.cpp.
+17. Execute the program.
+18. Record the output below.
