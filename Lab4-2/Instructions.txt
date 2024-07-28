@@ -1,0 +1,18 @@
+Lab 4-2: Understanding if else Statements
+
+Learning Objectives: 4.1, 4.3
+
+In this lab, you complete a prewritten C++ program that computes the largest and smallest of three integer
+values. The three values are —50, 53, and 78.
+
+1. Open the file named LargeSmall.cpp using Notepad or the text editor of your choice.
+2. Two variables named largest and smallest are declared for you. Use these variables to store the
+largest and smallest of the three integer values. You must decide what other variables you will need
+and initialize them as appropriate.
+3. Write the rest of the program using assignment statements, if statements, or if else statements
+as appropriate. There are comments in the code that tell you where you should write your statements.
+The output statements are written for you.
+4. Compile the program.
+5. Execute the program. Your output should be:
+The largest value is 78
+The smallest value is -50
