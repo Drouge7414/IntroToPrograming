@@ -1,0 +1,16 @@
+Lab 5-3: Using a for Loop
+
+Learning Objectives: 5.1, 5.3
+
+In this lab, you work with the same C++ program you worked with in Lab 5-1. As in Lab 5-1, the completed
+program should print the numbers 0 through 10, along with their values multiplied by 2 and by 10. However,
+in this lab, you should accomplish this using a for loop instead of a counter-controlled while loop.
+
+1. Open the source code file named NewMultiply.cpp using Notepad or the text editor of your
+choice.
+2. Write a for loop that uses the loop control variable to take on the values 0 through 10.
+3. In the body of the loop, multiply the value of the loop control variable by 2 and by 10.
+4. Save this source code file in a directory of your choice, and then make that directory your working
+directory.
+5. Compile the source code file NewMultiply.cpp.
+6. Execute the program. Is the output the same?
