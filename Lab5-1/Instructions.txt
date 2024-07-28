@@ -1,0 +1,18 @@
+Lab 5-1: Using a Counter-Controlled while Loop
+
+Learning Objectives: 5.1, 5.2
+
+In this lab, you use a counter-controlled while loop in a C++ program provided with the data files for this
+book. When completed, the program should print the numbers 0 through 10, along with their values multiplied
+by 2 and by 10. The data file contains the necessary variable declarations and some output statements.
+
+1. Open the source code file named Multiply.cpp using Notepad or the text editor of your choice.
+2. Write a counter-controlled while loop that uses the loop control variable to take on the values 0
+through 10. Remember to initialize the loop control variable before the program enters the loop.
+3. In the body of the loop, multiply the value of the loop control variable by 2 and by 10. Remember to
+change the value of the loop control variable in the body of the loop.
+4. Save the source code file in a directory of your choice, and then make that directory your working
+directory.
+5. Compile the source code file Multiply.cpp.
+6. Execute the program. Record the output of this program.
+_______________________________________________________________________________________________
