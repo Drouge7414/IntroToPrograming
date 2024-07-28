@@ -1,0 +1,24 @@
+Lab 4-4: Using a switch Statement
+
+Learning Objectives: 4.1, 4.3
+
+In this lab, you complete a prewritten C++ program that calculates an employee’s end-of-year bonus and
+prints the employee’s name, yearly salary, performance rating, and bonus. In this program, bonuses are cal
+culated based on employees’ annual salary and their performance rating. The rating system is contained in
+
+Table 4-5
+
+-
+Table 4-5 Employee ratings and bonuses
+
+Rating Bonus
+1 25 percent of annual salary
+2 15 percent of annual salary
+3 10 percent of annual salary
+4 None
+
+1. Open the file named EmployeeBonus2.cpp using Notepad or the text editor of your choice.
+2. Variables have been declared for you, and the input statements and output statements have been
+written. Read them over carefully before you proceed to the next step.
+3. Design the logic, and write the rest of the program using a switch statement.
+4. Compile the program.
