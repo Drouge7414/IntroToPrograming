@@ -1,0 +1,31 @@
+Lab 6-3: Parallel Arrays
+
+Learning Objectives: 6.1—6.3
+
+In this lab, you use what you have learned about parallel arrays to complete a partially completed C++
+program. The program is described in Chapter 6, Exercise 7, in Programming Logic and Design. The program
+should either print the name and price for a coffee add-in from the Jumpin’ Jive Coffee Shop or it should print
+the message "Sorry, we do not carry that.".
+
+Read the problem description carefully before you begin. The data file provided for this lab includes the
+necessary variable declarations and input statements. You need to write the part of the program that searches
+for the name of the coffee add-in(s) and either prints the name and price of the add-in or prints the error
+message if the add-in is not found. Comments in the code tell you where to write your statements. You can
+use the expanded Mail Order2 program shown in Figure 6-5 as a guide.
+
+1. Open the source code file named JumpinJive.cpp using Notepad or the text editor of your choice.
+2. Study the prewritten code to make sure you understand it.
+3. Write the code that searches the array for the name of the add-in ordered by the customer.
+4. Write the code that prints the name and price of the add-in or the error message, and then write the
+code that prints the cost of the total order.
+5. Save this source code file in a directory of your choice, and then make that directory your working
+directory.
+6. Compile the source code file JumpinJive.cpp.
+7. Execute the program using the following data and record the output:
+Cream
+Caramel
+Whiskey
+chocolate
+Chocolate
+Cinnamon
+Vanilla
