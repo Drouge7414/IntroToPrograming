@@ -1,0 +1,28 @@
+Lab 4-1: Understanding if Statements
+
+Learning Objectives: 4.1–4.3
+
+In this lab, you complete a prewritten C++ program for a carpenter who creates personalized house signs.
+The program is supposed to compute the price of any sign a customer orders, based on the following facts:
+
+• The charge for all signs is a minimum of $35.00.
+• The first five letters or numbers are included in the minimum charge; there is a $4 charge for each
+additional character.
+46 Chapter 4 Writing Programs That Make Decisions
+• If the sign is made of oak, add $20.00. No charge is added for pine.
+• Black or white characters are included in the minimum charge; there is an additional $15 charge for
+gold-leaf lettering.
+
+
+1. Open the file named HouseSign.cpp using Notepad or the text editor of your choice.
+2. You need to declare variables for the following, and initialize them where specified:
+• A variable for the cost of the sign initialized to 0.00.
+• A variable for the color of the characters initialized to "gold".
+• A variable for the wood type initialized with the value "oak".
+• A variable for the number of characters initialized with the value 8.
+3. Write the rest of the program using assignment statements and if statements as appropriate. The
+output statements are written for you.
+4. Compile the program.
+5. Execute the program. Your output should be: The charge for this sign is $82
+Note that you cannot control the number of places that appear after the decimal point until you learn more
+about C++ in Chapter 9 of this book
