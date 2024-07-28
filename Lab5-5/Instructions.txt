@@ -1,0 +1,27 @@
+Lab 5-5: Nesting Loops
+
+Learning Objectives: 5.1, 5.3, 5.5
+
+In this lab, you add nested loops to a C++ program provided with the data files for this book. The program
+should print the outline of the letter E, as shown in Figure 5-2. The letter E is printed using asterisks, three
+across and five down. This program uses cout << "*"; to print an asterisk and cout << " "; to print a
+space.
+
+Figure 5-2 Letter E printed by LetterE.cpp.
+****
+*
+****
+*
+****
+
+1. Open the source code file named LetterE.cpp using Notepad or the text editor of your choice.
+2. Write the nested loops to control the number of rows and the number of columns that make up the
+letter E.
+3. In the loop body, use a nested if statement to decide when to print an asterisk and when to print a
+space. The output statements have been written, but you must decide when and where to use them.
+4. Save this source code file in a directory of your choice, and then make that directory your working
+directory.
+5. Compile the source code file LetterE.cpp.
+6. Execute the program. Your letter E should look like the letter E in Figure 5-2.
+7. Modify the program to change the number of rows from five to seven and the number of columns
+from three to five. What does the letter E look like now?
