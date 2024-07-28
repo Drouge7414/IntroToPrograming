@@ -1,0 +1,18 @@
+Lab 5-4: Using a do while Loop
+
+Learning Objectives: 5.1, 5.4
+
+In this lab, you work with the same C++ program you worked with in Labs 5-1 and 5-3. As in those earlier
+labs, the completed program should print the numbers 0 through 10, along with their values multiplied by
+2 and by 10. However, in this lab, you should accomplish this using a do while loop.
+Note By writing the same program three different ways in this chapter, you have seen that a single
+problem can be solved in different ways.
+
+1. Open the source code file named NewestMultiply.cpp using Notepad or the text editor of your
+choice.
+2. Write a do while loop that uses the loop control variable to take on the values 0 through 10.
+3. In the body of the loop, multiply the value of the loop control variable by 2 and by 10.
+4. Save this source code file in a directory of your choice, and then make that directory your working
+directory.
+5. Compile the source code file NewestMultiply.cpp.
+6. Execute the program. Is the output the same?
